@@ -14,6 +14,6 @@ output "sample1" {
   value = "var.sample1"
 }
 
-output "sample.ext" {
+output "sample-ext" {
   value = "value of sample - ${var.sample}"
 }
