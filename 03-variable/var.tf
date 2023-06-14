@@ -60,5 +60,11 @@ output "devops1" {
 
 
 output "devopsaws" {
-  value = var.devopsaws["aws"]
+  value = var.devopsaws
+}
+
+variable "env" {}
+
+output "env" {
+  value = var.env
 }
