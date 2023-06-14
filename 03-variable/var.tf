@@ -50,15 +50,15 @@ variable "devopsaws" {
 }
 
 output "devops" {
-  value = "var.devops"
+  value = var.devops
 }
 
 
 output "devops1" {
-  value = "var.devops1"
+  value = var.devops1
 }
 
 
 output "devopsaws" {
-  value = "var.devopsaws"
+  value = var.devopsaws
 }
