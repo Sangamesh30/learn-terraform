@@ -60,5 +60,5 @@ output "devops1" {
 
 
 output "devopsaws" {
-  value = var.devopsaws
+  value = var.devopsaws["aws"]
 }
