@@ -13,7 +13,7 @@ data "aws_ami" "example" {
   most_recent = true
   name_regex  = "Centos-8-DevOps-Practice"
 }
-
+#h
 resource "aws_security_group" "sg" {
   name        = var.name
   description = "Allow TLS inbound traffic"
