@@ -3,7 +3,7 @@
     instance_type = "t3.micro"
     
     tags = {
-    Name = "Hello"
+    Name = "HelloWorld"
     }
   }
   
