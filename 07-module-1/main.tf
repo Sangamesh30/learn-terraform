@@ -8,6 +8,7 @@ module "sample2" {
   name = "sample2"
 }
 
+
 output "public_ip_sample1" {
   value = module.sample1.public_ip
 }
